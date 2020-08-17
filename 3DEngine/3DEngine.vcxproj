@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -148,9 +148,20 @@
   <ItemGroup>
     <ClInclude Include="Animation.h" />
     <ClInclude Include="AnimSprite.h" />
+    <ClInclude Include="Button.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameStateBase.h" />
+    <ClInclude Include="GameStateMachine.h" />
     <ClInclude Include="Globals.h" />
     <ClInclude Include="3DEngine.h" />
+    <ClInclude Include="GSCredit.h" />
+    <ClInclude Include="GSHighScore.h" />
+    <ClInclude Include="GSMenu.h" />
+    <ClInclude Include="GSOption.h" />
+    <ClInclude Include="GSPause.h" />
+    <ClInclude Include="GSPlay.h" />
+    <ClInclude Include="GSWelcom.h" />
     <ClInclude Include="HeightMap.h" />
     <ClInclude Include="Model.h" />
     <ClInclude Include="Object.h" />
@@ -159,6 +170,7 @@
     <ClInclude Include="Shaders.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Sprite.h" />
+    <ClInclude Include="StatesType.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Texture.h" />
@@ -167,7 +179,18 @@
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="AnimSprite.cpp" />
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameStateBase.cpp" />
+    <ClCompile Include="GameStateMachine.cpp" />
+    <ClCompile Include="GSCredit.cpp" />
+    <ClCompile Include="GSHighScore.cpp" />
+    <ClCompile Include="GSMenu.cpp" />
+    <ClCompile Include="GSOption.cpp" />
+    <ClCompile Include="GSPause.cpp" />
+    <ClCompile Include="GSPlay.cpp" />
+    <ClCompile Include="GSWelcom.cpp" />
     <ClCompile Include="HeightMap.cpp" />
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="Object.cpp" />
@@ -175,6 +198,7 @@
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="Shaders.cpp" />
     <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="StatesType.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
