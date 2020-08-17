@@ -4,11 +4,11 @@ class Sprite2D;
 class Sprite3D;
 class Text;
 class SpriteAnimation;
-class GSWelcom : public GameStateBase
+class GSPlay : public GameStateBase
 {
 public:
-	GSWelcom();
-	~GSWelcom();
+	GSPlay();
+	~GSPlay();
 	void Init();
 	void Exit();
 	void Pause();
@@ -19,6 +19,5 @@ public:
 	void HandleTouchEvents(int x, int y, bool bIsPressed);
 	void Update(float deltaTime);
 	void Draw();
-//private:
 };
 

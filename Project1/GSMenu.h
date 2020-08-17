@@ -1,14 +1,16 @@
 #pragma once
 #include "GameStateBase.h"
+#include "Game.h"
 class Sprite2D;
 class Sprite3D;
 class Text;
 class SpriteAnimation;
-class GSWelcom : public GameStateBase
+class GSMenu : public GameStateBase
 {
+
 public:
-	GSWelcom();
-	~GSWelcom();
+	GSMenu();
+	~GSMenu();
 	void Init();
 	void Exit();
 	void Pause();
@@ -19,6 +21,7 @@ public:
 	void HandleTouchEvents(int x, int y, bool bIsPressed);
 	void Update(float deltaTime);
 	void Draw();
-//private:
+private:
+	
 };
 
